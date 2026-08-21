@@ -1,13 +1,13 @@
 {% set name = "opentelemetry-resource-detector-azure" %}
-{% set version = "0.1.5" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_resource_detector_azure-{{ version }}.tar.gz
-  sha256: e0ba658a87c69eebc806e75398cd0e9f68a8898ea62de99bc1b7083136403710
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_resource_detector_azure-{{ version }}.tar.gz
+  sha256: 7a82d1c1794a3b252de9b0cb393116ae260f8414a085010e1c334cea34c4677e
 
 build:
   noarch: python
